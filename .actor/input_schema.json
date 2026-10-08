@@ -1,0 +1,32 @@
+{
+  "title": "Himalayas Remote Jobs Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "maxItems": {
+      "title": "Maximum Job Leads",
+      "type": "integer",
+      "description": "Maximum number of remote job leads to extract.",
+      "default": 30,
+      "minimum": 1,
+      "maximum": 500
+    },
+    "keywordFilter": {
+      "title": "Keyword Filter",
+      "type": "string",
+      "description": "Filter jobs by technology, role, or title (e.g., Python, React, DevOps, AI, Marketing). Leave empty for all.",
+      "editor": "textfield",
+      "default": ""
+    },
+    "seniorityFilter": {
+      "title": "Seniority Filter",
+      "type": "string",
+      "description": "Filter jobs by seniority (e.g., Senior, Lead, Junior, Mid, Director). Leave empty for all.",
+      "editor": "textfield",
+      "default": ""
+    }
+  },
+  "required": [
+    "maxItems"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "actorSpecification": 1,
+  "name": "himalayas-remote-jobs-scraper",
+  "title": "Himalayas Remote Jobs & Salaries Scraper (Tech Leads)",
+  "description": "Extract verified remote tech jobs, salary bands, seniorities, company logos, and direct application links from Himalayas. Fast REST API, zero proxies, $0.003/lead.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "defaultMemoryMbytes": 256,
+  "minMemoryMbytes": 128,
+  "maxMemoryMbytes": 1024,
+  "meta": {
+    "templateId": "python-start"
+  },
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "dockerfile": "../Dockerfile"
+}

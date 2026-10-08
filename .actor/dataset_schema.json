@@ -1,0 +1,59 @@
+{
+  "actorSpecification": 1,
+  "title": "Himalayas Remote Jobs",
+  "description": "Dataset of extracted Himalayas remote tech jobs.",
+  "views": {
+    "overview": {
+      "title": "Jobs Overview",
+      "transformation": {
+        "fields": [
+          "company",
+          "title",
+          "salary",
+          "seniority",
+          "employmentType",
+          "locationRestrictions",
+          "applicationUrl",
+          "himalayasUrl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "company": {
+            "label": "Company",
+            "format": "text"
+          },
+          "title": {
+            "label": "Job Title",
+            "format": "text"
+          },
+          "salary": {
+            "label": "Salary Band",
+            "format": "text"
+          },
+          "seniority": {
+            "label": "Seniority",
+            "format": "text"
+          },
+          "employmentType": {
+            "label": "Type",
+            "format": "text"
+          },
+          "locationRestrictions": {
+            "label": "Location",
+            "format": "text"
+          },
+          "applicationUrl": {
+            "label": "Direct Apply",
+            "format": "link"
+          },
+          "himalayasUrl": {
+            "label": "Himalayas URL",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}

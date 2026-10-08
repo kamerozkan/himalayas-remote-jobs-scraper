@@ -1,0 +1,13 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Himalayas Remote Jobs Output",
+  "description": "Structured dataset of remote job openings, salary bands, and company leads.",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "Himalayas Dataset",
+      "description": "Default dataset containing extracted remote job leads.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    }
+  }
+}
